@@ -348,8 +348,8 @@ blockquote {
   margin-bottom: 30px;
 }
 
-.parallax1 {
-  background: url(../images/parallax/parallax1.jpg) no-repeat;
+/* .parallax1 {
+  background: url(../images/sisspa/Nodos.png) no-repeat;
 }
 
 .parallax2 {
@@ -362,7 +362,7 @@ blockquote {
 
 .parallax4 {
   background: url(../images/parallax/parallax4.jpg) no-repeat;
-}
+} */
 
 .parallax .btn.solid {
   margin-left: 10px;
@@ -734,7 +734,7 @@ blockquote {
 }
 
 .header-solid {
-  background: #191919;
+  background: #2e2e2e;
   box-shadow: 0px 1px 7px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -2004,7 +2004,7 @@ figure.effect-oscar:hover img {
 ================================================== */
 .footer {
   padding: 60px 0 100px;
-  background: #2e2e2e url(../images/footer-bg.jpg) no-repeat center 0;
+  background: #2e2e2e;
   background-size: cover;
   color: #fff;
   font-size: 14px;
