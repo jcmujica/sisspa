@@ -11,11 +11,11 @@
   <!-- Bootstrap -->
   <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
   <!-- FontAwesome -->
-  <link rel="stylesheet" href="plugins/fontawesome/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="plugins/fo  ntawesome/font-awesome.min.css"> -->
   <!-- Animation -->
   <link rel="stylesheet" href="plugins/animate.css">
   <!-- Flexslider -->
-  <link rel="stylesheet" href="plugins/cd-hero/cd-hero.css">
+  <!-- <link rel="stylesheet" href="plugins/cd-hero/cd-hero.css"> -->
   <!-- Style Swicther -->
   <link id="style-switch" href="css/presets/preset3.css" media="screen" rel="stylesheet" type="text/css">
   <!-- Main Stylesheet -->
@@ -25,6 +25,8 @@
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicon/favicon-144x144.png">
   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicon/favicon-72x72.png">
   <link rel="apple-touch-icon-precomposed" href="img/favicon/favicon-54x54.png">
+  <script src="https://kit.fontawesome.com/6d12091310.js" crossorigin="anonymous"></script>
+</head>
 </head>
 
 <body>
@@ -44,27 +46,24 @@
           <div class="collapse navbar-collapse text-center" id="navigation">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item  active">
-                <a class="nav-link" href="#" role="button" aria-expanded="false">
+                <a class="nav-link" href="/" role="button" aria-expanded="false">
                   Home
                 </a>
               </li>
               <li class="nav-item  active">
-                <a class="nav-link" href="#" role="button" aria-expanded="false">
+                <a class="nav-link" href="./about.html" role="button" aria-expanded="false">
                   Nosotros
                 </a>
               </li>
               <li class="nav-item  active">
-                <a class="nav-link" href="#" role="button" aria-expanded="false">
+                <a class="nav-link" href="./service.html" role="button" aria-expanded="false">
                   Servicios
                 </a>
               </li>
               <li class="nav-item  active">
-                <a class="nav-link" href="#" role="button" aria-expanded="false">
+                <a class="nav-link" href="./contact.html" role="button" aria-expanded="false">
                   Contacto
                 </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a></a>
               </li>
             </ul>
           </div>
@@ -74,22 +73,17 @@
     <!--/ Header end -->
 
     <!-- Slider start -->
-    <section id="home" class="p-0">
-      <div id="main-slide" class="cd-hero">
-        <ul class="cd-hero-slider">
-          <li class="selected">
-            <div class="overlay2">
-              <img class="hero-img" src="images/sisspa/keyboard.png" alt="slider">
-            </div>
-            <div class="cd-full-width">
-              <h2>Need To Invent The Future!</h2>
-              <h3>We Making Difference To Great Things Possible</h3>
-              <a href="#0" class="btn btn-primary solid cd-btn">Learn More</a>
-            </div> <!-- .cd-full-width -->
-          </li>
-        </ul>
-        <!--/ cd-hero-slider -->
+    <section id="home" class="hero">
+      <div id="hero" class="hero__img">
+        <video autoplay muted loop class="hero__video" id="myVideo">
+          <source src="./images/videos/discussing_features.mp4" type="video/mp4">
+        </video>
       </div>
+      <div class="hero__text">
+        <h2>NECESITAS HACER CRECER TU NEGOCIO</h2>
+        <h3>ESTAMOS PARA APOYARTE</h3>
+        <a href="#0" class="btn btn-primary solid cd-btn">Conócenos</a>
+      </div> <!-- .cd-full-width -->
       <!--/ Main slider end -->
     </section>
     <!--/ Slider end -->
@@ -107,38 +101,71 @@
         </div><!-- Title row end -->
 
         <div class="row">
-          <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay=".5s">
+          <!-- <div class="col-md-3"></div> -->
+          <div class="col-md-4 col-md-offset-3 col-sm-4" data-wow-delay=".5s">
             <div class="service-content text-center">
-              <span class="service-icon icon-pentagon"><i class="fa fa-tachometer"></i></span>
-              <h3>Web Design</h3>
-              <p>High Life narwhal, banh mi PBR single-origin coffee Odd Future actually aliqua polaroid befor</p>
+              <span class="service-icon icon-pentagon">
+                <i class="fas fa-tv"></i>
+              </span>
+              <h3>SOPORTE TÉCNICO INFORMÁTICO</h3>
+              <p>Mantenimiento de equipos, instalación y licenciamiento de softwares, soporte a usuarios.</p>
             </div>
           </div>
           <!--/ End first service -->
 
-          <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay=".8s">
+          <div class="col-md-4 col-sm-4">
             <div class="service-content text-center">
-              <span class="service-icon icon-pentagon"><i class="fa fa-android"></i></span>
-              <h3>Apps Development</h3>
-              <p>Food truck master cleanse mixtape minim Portland, cardigan stumptown chambray swag</p>
+              <span class="service-icon icon-pentagon">
+                <i class="fas fa-server"></i>
+              </span>
+              <h3>RESPALDO DE INFORMACIÓN</h3>
+              <p>Backup de información critica de la empresa, respaldo local y en nube, recuperación rápida de
+                servicios.</p>
             </div>
           </div>
           <!--/ End Second service -->
 
-          <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="1.1s">
+          <div class="col-md-4 col-sm-4">
             <div class="service-content text-center">
-              <span class="service-icon icon-pentagon"><i class="fa fa-shopping-cart"></i></span>
-              <h3>eCommerce Websites</h3>
-              <p>Neutra Thundercats craft beer, listicle meggings bicycle rights 90's XOXO beard cardiga</p>
+              <span class="service-icon icon-pentagon">
+                <i class="fas fa-cog"></i>
+              </span>
+              <h3>CONTINUIDAD OPERACIONAL
+                DE SISTEMAS</h3>
+              <p>Diseño de redundancia de
+                servicios para evitar detención
+                de procesos críticos de la
+                empresa.</p>
             </div>
           </div>
           <!--/ End Third service -->
-
-          <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="1.4s">
+        </div>
+        <div class="row">
+          <div class="col-md-2 col-sm-2"></div>
+          <div class="col-md-4 col-sm-4">
             <div class="service-content text-center">
-              <span class="service-icon icon-pentagon"><i class="fa fa-lightbulb-o"></i></span>
-              <h3>Design for Startups</h3>
-              <p>We design beautiful modern engaging websites that always latest responsive technologies.</p>
+              <span class="service-icon icon-pentagon">
+                <i class="fas fa-phone-alt"></i>
+              </span>
+              <h3>TELEFONIA IP</h3>
+              <p>Telefonía digital para empresas
+                con convergencia a red PSTN,
+                servicio para comunicación
+                interna e intersucursales.</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-4">
+            <div class="service-content text-center">
+              <span class="service-icon icon-pentagon">
+                <i class="fas fa-ethernet"></i>
+              </span>
+              <h3>CABLEADO ESTRUCTURADO</h3>
+              <p>Diseño e instalación de
+                cableado de red de oficinas,
+                certificación de cableado y
+                soporte técnico de
+                infraestructura.</p>
             </div>
           </div>
           <!--/ End 4th service -->
@@ -156,38 +183,48 @@
           </div>
           <div class="col-md-6 ts-padding img-block-right">
             <div class="img-block-head text-center">
-              <h2>Know More About Our Company</h2>
-              <h3>Why Choose Us</h3>
-              <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id
-                elit.
-                Proin gravida nibh vel velit auctor Aenean sollicitudin, adipisicing elit sed lorem quis bibendum
-                auctor.
+              <h2>¿Por qué elegirnos?</h2>
+              <h3>Conoce Nuestros Valores</h3>
+              <p>
               </p>
             </div>
             <div class="gap-30"></div>
             <div class="image-block-content">
-              <span class="feature-icon float-left"><i class="fa fa-bicycle"></i></span>
+              <span class="feature-icon float-left">
+                <i class="fas fa-clipboard-check"></i>
+              </span>
               <div class="feature-content">
-                <h3>Tons of Features</h3>
-                <p>Consectetur adipisicing elit sed do eiusmod tempor incididunt ut</p>
+                <h3>SERVICIO PROFESIONAL</h3>
+                <p>Equipo de trabajo comprometido y
+                  altamente capacitado a disposición
+                  del cliente.</p>
               </div>
             </div>
             <!--/ End 1st block -->
 
             <div class="image-block-content">
-              <span class="feature-icon float-left"><i class="fa fa-diamond"></i></span>
+              <span class="feature-icon float-left">
+                <i class="fas fa-gem"></i>
+              </span>
               <div class="feature-content">
-                <h3>PowerPack Theme</h3>
-                <p>Proin gravida nibh vel velit auctor Aenean sollicitudin adipisicing</p>
+                <h3>ATENCIÓN PERSONALIZADA</h3>
+                <p>Diseño de soluciones que se
+                  adaptan a las necesidades del
+                  cliente, alta disponibilidad del
+                  personal de atención.</p>
               </div>
             </div>
             <!--/ End 1st block -->
 
             <div class="image-block-content">
-              <span class="feature-icon float-left"><i class="fa fa-street-view"></i></span>
+              <span class="feature-icon float-left">
+                <i class="fas fa-rocket"></i>
+              </span>
               <div class="feature-content">
-                <h3>Day Night Support</h3>
-                <p>Simply dummy text and typesettings industry has been the industry</p>
+                <h3>AGILIDAD</h3>
+                <p>Rápida respuesta en atención y
+                  resolución de necesidades técnicas
+                  del servicio.</p>
               </div>
             </div>
             <!--/ End 1st block -->
@@ -235,7 +272,7 @@
                 <p>info@craftbd.com</p>
               </div>
               <div class="row">
-                <h4>Phone No.</h4><br />
+                <h4>Fono:</h4><br />
               </div>
               <div class="row">
                 <p>+(785) 238-4131</p>
@@ -248,9 +285,9 @@
 
                 <form action="#" role="form">
                   <div class="input-group subscribe">
-                    <input type="email" class="form-control" placeholder="Email Address" required="">
+                    <input type="email" class="form-control" placeholder="Correo electrónico" required="">
                     <span class="input-group-addon">
-                      <button class="btn" type="submit"><i class="fa fa-envelope-o"> </i></button>
+                      <button class="btn" type="submit"><i class="fas fa-envelope"></i></button>
                     </span>
                   </div>
                 </form>
@@ -271,16 +308,24 @@
             <ul class="footer-social unstyled">
               <li>
                 <a title="Twitter" href="#">
-                  <span class="icon-pentagon wow bounceIn"><i class="fa fa-twitter"></i></span>
+                  <span class="icon-pentagon wow bounceIn">
+                    <i class="fab fa-twitter-square"></i>
+                  </span>
                 </a>
                 <a title="Facebook" href="#">
-                  <span class="icon-pentagon wow bounceIn"><i class="fa fa-facebook"></i></span>
+                  <span class="icon-pentagon wow bounceIn">
+                    <i class="fab fa-facebook-square"></i>
+                  </span>
                 </a>
                 <a title="linkedin" href="#">
-                  <span class="icon-pentagon wow bounceIn"><i class="fa fa-linkedin"></i></span>
+                  <span class="icon-pentagon wow bounceIn">
+                    <i class="fab fa-linkedin"></i>
+                  </span>
                 </a>
                 <a title="Skype" href="#">
-                  <span class="icon-pentagon wow bounceIn"><i class="fa fa-skype"></i></span>
+                  <span class="icon-pentagon wow bounceIn">
+                    <i class="fab fa-skype"></i>
+                  </span>
                 </a>
               </li>
             </ul>
