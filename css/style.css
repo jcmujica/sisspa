@@ -187,7 +187,7 @@ section {
 }
 
 .ts-padding {
-  padding: 50px;
+  padding: 30px;
 }
 
 .p-0 {
@@ -779,10 +779,12 @@ blockquote {
 
 .hero__text h2 {
   text-align: center;
+  color: white;
 }
 
 .hero__text h3 {
   text-align: center;
+  color: white;
 }
 
 .hero__video {
@@ -791,6 +793,11 @@ blockquote {
   object-fit: fill;
   min-height: 100vh;
   /* transform: scale(1.2); */
+}
+
+.navbar-brand {
+  display: flex;
+  justify-content: center;
 }
 /* Header Style - 2
 ================================================== */
@@ -1154,7 +1161,7 @@ blockquote {
 }
 
 .img-block-right {
-  padding-right: 140px;
+  padding-right: 30px;
 }
 
 .img-block-head h2 {
@@ -1169,7 +1176,7 @@ blockquote {
 }
 
 .image-block-content {
-  padding: 0 50px;
+  padding: 0 10px;
   margin-bottom: 30px;
 }
 
@@ -3355,4 +3362,8 @@ a.close-styler {
 .navbar-bg {
   display: flex;
   align-items: center;
+}
+
+.nav__otherPage {
+  background-color: #2e2e2e;
 }
