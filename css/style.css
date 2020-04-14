@@ -724,7 +724,7 @@ blockquote {
 }
 
 .header-solid {
-  background: #2e2e2e;
+  background: #625e5e;
   box-shadow: 0px 1px 7px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -2011,7 +2011,7 @@ figure.effect-oscar:hover img {
 ================================================== */
 .footer {
   padding: 60px 0 100px;
-  background: #2e2e2e;
+  background: #625e5e;
   background-size: cover;
   color: #fff;
   font-size: 14px;
