@@ -3357,6 +3357,7 @@ a.close-styler {
 
 .about__subtitle {
   font-size: 18px;
+  text-transform: lowercase;
 }
 
 .footer__social {
