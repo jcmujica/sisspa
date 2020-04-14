@@ -1111,7 +1111,7 @@ html {
 /* Image Block
 ================================================== */
 .image-block {
-  background: #f4f4f4;
+  background: white;
 }
 
 .img-block-right {
@@ -3349,6 +3349,7 @@ a.close-styler {
 }
 #about {
   background-color: #f4f4f4;
+  padding: 150px 0;
 }
 .about__image {
   background: url("../images/sisspa/sisspa-text-black.svg") no-repeat center;
