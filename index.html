@@ -51,17 +51,17 @@
                 </a>
               </li>
               <li class="nav-item  active">
-                <a class="nav-link" href="./about.html" role="button" aria-expanded="false">
+                <a class="nav-link" href="#about" role="button" aria-expanded="false">
                   Nosotros
                 </a>
               </li>
               <li class="nav-item  active">
-                <a class="nav-link" href="./service.html" role="button" aria-expanded="false">
+                <a class="nav-link" href="#service" role="button" aria-expanded="false">
                   Servicios
                 </a>
               </li>
               <li class="nav-item  active">
-                <a class="nav-link" href="./contact.html" role="button" aria-expanded="false">
+                <a class="nav-link" href="#contact" role="button" aria-expanded="false">
                   Contacto
                 </a>
               </li>
@@ -76,13 +76,13 @@
     <section id="home" class="hero">
       <div id="hero" class="hero__img">
         <video autoplay muted loop class="hero__video" id="myVideo">
-          <source src="./images/videos/discussing_features.mp4" type="video/mp4">
+          <source src="./images/videos/video_city.mp4" type="video/mp4">
         </video>
       </div>
       <div class="hero__text">
         <h2>NECESITAS HACER CRECER TU NEGOCIO</h2>
         <h3>ESTAMOS PARA APOYARTE</h3>
-        <a href="#0" class="btn btn-primary solid cd-btn">Conócenos</a>
+        <a href="#about" class="btn btn-primary solid cd-btn">Conócenos</a>
       </div> <!-- .cd-full-width -->
       <!--/ Main slider end -->
     </section>
@@ -92,19 +92,19 @@
     <section id="service" class="service angle">
       <div class="container">
         <div class="row">
-          <div class="col-md-12 heading">
-            <span class="title-icon float-left"><i class="fa fa-cogs"></i></span>
-            <h2 class="title">Nuestro Servicio
-              <span class="title-desc">A Quality Experience Team with 4 years experience</span>
+          <div class="col-md-12 heading service__heading">
+            <span class="title-icon"><i class="fa fa-cogs"></i></span>
+            <h2 class="title service__title">Nuestro Servicio
+              <!-- <span class="title-desc">A Quality Experience Team with 4 years experience</span> -->
             </h2>
           </div>
         </div><!-- Title row end -->
 
         <div class="row">
           <!-- <div class="col-md-3"></div> -->
-          <div class="col-md-4 col-md-offset-3 col-sm-4" data-wow-delay=".5s">
-            <div class="service-content text-center">
-              <span class="service-icon icon-pentagon">
+          <div class="col-md-4 col-md-offset-3 col-sm-4">
+            <div class="service__content">
+              <span class="service__icon">
                 <i class="fas fa-tv"></i>
               </span>
               <h3>SOPORTE TÉCNICO INFORMÁTICO</h3>
@@ -114,8 +114,8 @@
           <!--/ End first service -->
 
           <div class="col-md-4 col-sm-4">
-            <div class="service-content text-center">
-              <span class="service-icon icon-pentagon">
+            <div class="service__content">
+              <span class="service__icon">
                 <i class="fas fa-server"></i>
               </span>
               <h3>RESPALDO DE INFORMACIÓN</h3>
@@ -126,8 +126,8 @@
           <!--/ End Second service -->
 
           <div class="col-md-4 col-sm-4">
-            <div class="service-content text-center">
-              <span class="service-icon icon-pentagon">
+            <div class="service__content">
+              <span class="service__icon">
                 <i class="fas fa-cog"></i>
               </span>
               <h3>CONTINUIDAD OPERACIONAL
@@ -143,8 +143,8 @@
         <div class="row">
           <div class="col-md-2 col-sm-2"></div>
           <div class="col-md-4 col-sm-4">
-            <div class="service-content text-center">
-              <span class="service-icon icon-pentagon">
+            <div class="service__content">
+              <span class="service__icon">
                 <i class="fas fa-phone-alt"></i>
               </span>
               <h3>TELEFONIA IP</h3>
@@ -156,8 +156,8 @@
           </div>
 
           <div class="col-md-4 col-sm-4">
-            <div class="service-content text-center">
-              <span class="service-icon icon-pentagon">
+            <div class="service__content">
+              <span class="service__icon">
                 <i class="fas fa-ethernet"></i>
               </span>
               <h3>CABLEADO ESTRUCTURADO</h3>
@@ -174,6 +174,27 @@
       <!--/ Container end -->
     </section>
     <!--/ Service box end -->
+
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h3>SOMOS UN EQUIPO PROFESIONAL, JOVEN Y ENTUSIASTAS DEL DESARROLLO DE SOLUCIONES TECNOLÓGICAS DE ÚLTIMA
+              GENERACIÓN</h3>
+            <p>Asumimos el compromiso de proporcionar el soporte tecnológico que potencie el desarrollo de su empresa,
+              centrando
+              nuestro servicio en la agilidad, profesionalismo y atención personalizada.</p>
+          </div>
+          <div class="col-md-6">
+            <div class="about__image">
+
+            </div>
+            <!-- <img src="./images/sisspa/sisspa-black.svg" alt=""> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
 
     <section id="image-block" class="image-block p-0">
       <div class="container-fluid">
@@ -234,76 +255,79 @@
     </section>
     <!--/ Image block end -->
 
-    <!-- Parallax 1 start -->
-    <section class="parallax parallax1">
-      <div class="parallax-overlay"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <h2>Are You Ready to Buy This Template!</h2>
-            <h3>Just Click Button and Use Your Own</h3>
-            <p>
-              <a href="#" class="btn btn-primary white">Purchase Now</a>
-              <a href="#" class="btn btn-primary solid">Get In Touch</a>
-            </p>
-          </div>
-        </div>
-      </div><!-- Container end -->
-    </section><!-- Parallax 1 end -->
-
     <!-- Footer start -->
     <footer id="footer" class="footer">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 col-sm-12 footer-widget">
-            <h3 class="widget-title">Dirección</h3>
-            <p>1102 Saint Marys, Junction City, KS</p>
+          <div class="col-md-4 col-sm-12 footer-widget">
+            <div class="row">
+              <h3 class="widget-title">Dirección</h3>
+            </div>
+            <div class="row">
+              <p>1102 Saint Marys, Junction City, KS</p>
+            </div>
+            <div class="row">
+              <h4>Email:</h4><br />
+            </div>
+            <div class="row">
+              <p>info@craftbd.com</p>
+            </div>
+            <div class="row">
+              <h4>Fono:</h4><br />
+            </div>
+            <div class="row">
+              <p>+(785) 238-4131</p>
+            </div>
           </div>
           <!--/ End Recent Posts-->
 
           <!--/ end flickr -->
-          <div class="col-md-6 col-sm-12 footer-widget footer-about-us">
+          <div class="col-md-8 col-sm-12 footer-widget footer-about-us">
             <div class="container">
+              <div class="row">
+                <h3 class="widget-title">Contáctanos</h3>
+              </div>
+              <form action="#" role="form">
+                <div class="">
+                  <div class="row">
+                    <label for="name" class="col-sm-2 col-md-2 col-form-label col-form-label-sm">Nombre</label>
+                    <input type="name" id="name" class="col-md-10 form-control" required="true">
+                  </div>
+                  <div class="row">
+                    <label for="email" class="col-sm-2 col-md-2 col-form-label col-form-label-sm">Email</label>
+                    <input type="email" id="email" class="col-md-10 form-control" required="true">
+                  </div>
+                  <div class="row">
+                    <label for="phone" class="col-sm-2 col-md-2 col-form-label col-form-label-sm">Teléfono</label>
+                    <input type="phone" id="phone" class="col-md-10 form-control" required="true">
+                  </div>
+                  <div class="row">
+                    <label for="title" class="col-sm-2 col-md-2 col-form-label col-form-label-sm">Asunto</label>
+                    <input type="title" class="col-md-10 form-control" id="title" required="true">
+                  </div>
+                  <div class="row">
+                    <label for="body" class="col-sm-2 col-md-2 col-form-label col-form-label-sm">Descripción</label>
+                    <textarea type="body" id="body" class="col-md-10 form-control" required="true"></textarea>
+                  </div>
+                  <div class="row">
+                    <button class="btn btn-primary footer__submit" type="submit">Enviar</button>
+                  </div>
+                </div>
+              </form>
 
-              <div class="row">
-                <h4>Email:</h4><br />
-              </div>
-              <div class="row">
-                <p>info@craftbd.com</p>
-              </div>
-              <div class="row">
-                <h4>Fono:</h4><br />
-              </div>
-              <div class="row">
-                <p>+(785) 238-4131</p>
-              </div>
             </div>
           </div>
-          <div class="col-md-12 col-sm-12 footer-widget footer-about-us">
+          <!-- <div class="col-md-12 col-sm-12 footer-widget footer-about-us">
             <div class="row">
               <div class="col-md-12">
 
-                <form action="#" role="form">
-                  <div class="input-group subscribe">
-                    <input type="email" class="form-control" placeholder="Correo electrónico" required="">
-                    <span class="input-group-addon">
-                      <button class="btn" type="submit"><i class="fas fa-envelope"></i></button>
-                    </span>
-                  </div>
-                </form>
               </div>
             </div>
-          </div>
+          </div> -->
           <!--/ end about us -->
 
         </div><!-- Row end -->
-      </div><!-- Container end -->
-    </footer><!-- Footer end -->
-
-    <!-- Copyright start -->
-    <section id="copyright" class="copyright angle">
-      <div class="container">
-        <div class="row">
+        <div class="row footer__social">
           <div class="col-md-12 text-center">
             <ul class="footer-social unstyled">
               <li>
@@ -322,11 +346,6 @@
                     <i class="fab fa-linkedin"></i>
                   </span>
                 </a>
-                <a title="Skype" href="#">
-                  <span class="icon-pentagon wow bounceIn">
-                    <i class="fab fa-skype"></i>
-                  </span>
-                </a>
               </li>
             </ul>
           </div>
@@ -339,11 +358,9 @@
             </div>
           </div>
         </div>
-        <!--/ Row end -->
-      </div>
-      <!--/ Container end -->
-    </section>
-    <!--/ Copyright end -->
+      </div><!-- Container end -->
+    </footer><!-- Footer end -->
+
 
   </div><!-- Body inner end -->
 

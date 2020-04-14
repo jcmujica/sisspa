@@ -433,7 +433,7 @@ blockquote {
 }
 
 .widget-title {
-  margin-bottom: 25px;
+  margin-bottom: 10px;
   font-size: 20px;
 }
 
@@ -565,7 +565,8 @@ blockquote {
   box-shadow: none;
   border: 1px solid #dedede;
   padding: 6px 20px;
-  height: 50px;
+  height: 30px;
+  margin-bottom: 10px;
   background: none;
   color: #959595;
   font-size: 14px;
@@ -799,58 +800,6 @@ blockquote {
   display: flex;
   justify-content: center;
 }
-/* Header Style - 2
-================================================== */
-.header2 {
-  padding: 8px 0;
-}
-
-@media (max-width: 991px) {
-  .header2 {
-    background: #191919;
-    box-shadow: 0px 1px 7px 0 rgba(0, 0, 0, 0.2);
-  }
-}
-
-.header2 .navbar {
-  padding: 0;
-}
-
-.header2 .navbar-brand {
-  background: none;
-  padding-top: 3px;
-}
-
-/* Header Style - 3
-================================================== */
-.header3 .navbar {
-  background: #fff;
-  border-radius: 0 0 5px 5px;
-  box-shadow: 0px 1px 7px 0 rgba(0, 0, 0, 0.2);
-}
-
-.header3 .navbar-brand {
-  background: transparent;
-}
-
-.header3 .navbar-toggler {
-  background: transparent;
-}
-
-/* Header Style - 4
-================================================== */
-.header4 {
-  background: #fff;
-  box-shadow: 0px 1px 7px 0 rgba(0, 0, 0, 0.2);
-}
-
-.header4 .navbar-brand {
-  background: transparent;
-}
-
-.header4 .navbar-toggler {
-  background: transparent;
-}
 
 /* Slideshow
 ================================================== */
@@ -864,7 +813,25 @@ blockquote {
   right: 0;
   /* background-image: url(../images/overaly.png); */
 }
-
+html {
+  scroll-behavior: smooth;
+}
+#service {
+  padding-top: 100px;
+}
+.service__heading {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2em;
+}
+.service__title {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+.title-icon {
+  margin: 0 20px 0 0;
+}
 #main-slide .carousel-item img {
   width: 100%;
   -webkit-backface-visibility: hidden;
@@ -2204,7 +2171,7 @@ ul.arrow li:before {
 ================================================== */
 #copyright {
   padding: 30px 0;
-  background: #191919;
+  background: #2e2e2e;
   color: #fff;
 }
 
@@ -3366,4 +3333,44 @@ a.close-styler {
 
 .nav__otherPage {
   background-color: #2e2e2e;
+}
+
+.service__icon {
+  font-size: 2.5rem;
+  color: white;
+  background-color: #6ebf4e;
+  padding: 20px;
+  border-radius: 100%;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.service__content h3 {
+  font-size: 16px;
+}
+
+.service__content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__image {
+  background: url("../images/sisspa/sisspa-text-black.svg") no-repeat center;
+  height: 100%;
+}
+
+.footer__social {
+  margin-top: 50px;
+}
+
+.footer__submit {
+  color: white !important;
+  margin-left: auto;
 }
