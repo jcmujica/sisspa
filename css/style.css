@@ -3347,7 +3347,9 @@ a.close-styler {
   justify-content: center;
   align-items: center;
 }
-
+#about {
+  background-color: #f4f4f4;
+}
 .about__image {
   background: url("../images/sisspa/sisspa-text-black.svg") no-repeat center;
   height: 100%;
