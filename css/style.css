@@ -373,9 +373,7 @@ blockquote {
   position: relative;
   margin: 0;
   line-height: 32px;
-  border-left: 2px solid #e7e7e7;
   display: inline-block;
-  padding-left: 15px;
   transition: all 0.3s ease 0s;
 }
 
@@ -3358,6 +3356,10 @@ a.close-styler {
 .about__subtitle {
   font-size: 18px;
   text-transform: lowercase;
+}
+
+.footer__email {
+  color: white;
 }
 
 .footer__social {
