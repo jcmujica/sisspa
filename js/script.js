@@ -16,4 +16,8 @@ jQuery(function ($) {
       $('.header2').removeClass('header-bgnone animated fadeInDown');
     }
   });
+
+  $('.navbar-collapse a').click(function (e) {
+    $('.navbar-collapse').collapse('toggle');
+  });
 });
