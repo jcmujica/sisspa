@@ -1,0 +1,77 @@
+<section id="office365" class="o365 section">
+  <div class="container">
+    <div class="o365-grid">
+      <div class="o365-text">
+        <div class="section-label">Promoción</div>
+        <h2>Office 365 <span class="text-gradient">gratis</span> por 1 año</h2>
+        <p>Al contratar nuestro servicio de soporte TI, recibe sin costo adicional Office 365 para 6 usuarios.</p>
+        <ul class="o365-features">
+          <li><i class="fas fa-check"></i> Word, Excel, PowerPoint y Outlook</li>
+          <li><i class="fas fa-check"></i> 6TB de almacenamiento en OneDrive</li>
+          <li><i class="fas fa-check"></i> Seguridad avanzada incluida</li>
+          <li><i class="fas fa-check"></i> Instalación y puesta en marcha gratis</li>
+        </ul>
+        <a href="/sti365" class="btn btn-primary">Solicitar servicio &rarr;</a>
+      </div>
+      <div class="o365-image">
+        <img src="/images/sisspa/office-365.png" alt="Office 365" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .o365 {
+    background: var(--bg);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .o365-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+  }
+
+  @media (max-width: 768px) {
+    .o365-grid { grid-template-columns: 1fr; gap: 40px; }
+  }
+
+  .o365-text h2 { margin-bottom: 16px; }
+  .o365-text > p { font-size: 1rem; margin-bottom: 24px; }
+
+  .o365-features {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 32px;
+  }
+
+  .o365-features li {
+    font-size: 0.9375rem;
+    color: var(--text-2);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .o365-features li i {
+    color: var(--accent);
+    font-size: 0.75rem;
+  }
+
+  .o365-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-2);
+    border-radius: var(--r);
+    padding: 60px 40px;
+  }
+
+  .o365-image img {
+    max-width: 280px;
+  }
+</style>
