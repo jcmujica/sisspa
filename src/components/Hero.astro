@@ -1,0 +1,60 @@
+<section id="home" class="hero">
+  <div class="hero-content">
+    <h1 class="hero-headline hero-enter">
+      Tecnología que impulsa<br/>
+      <span class="text-gradient">tu negocio.</span>
+    </h1>
+    <p class="hero-sub hero-enter">Soporte profesional, soluciones a medida y atención personalizada para llevar tu empresa al siguiente nivel.</p>
+    <div class="hero-actions hero-enter">
+      <a href="#about" class="btn btn-primary">Conócenos</a>
+      <a href="#service" class="hero-link">Conoce nuestros servicios <span>&rarr;</span></a>
+    </div>
+  </div>
+</section>
+
+<style>
+  .hero-headline {
+    font-size: clamp(2.25rem, 5vw, 3.75rem);
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    line-height: 1.1;
+    color: var(--text);
+    margin-bottom: 24px;
+  }
+
+  .hero-sub {
+    font-size: 1.2rem;
+    color: var(--text-3);
+    max-width: 480px;
+    margin: 0 auto 44px;
+    line-height: 1.6;
+  }
+
+  .hero-actions {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .hero-link {
+    font-family: var(--font-heading);
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: var(--accent);
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 12px 0;
+  }
+
+  .hero-link:hover span {
+    transform: translateX(3px);
+  }
+
+  .hero-link span {
+    transition: transform 0.2s;
+    display: inline-block;
+  }
+</style>

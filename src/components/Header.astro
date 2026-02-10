@@ -1,0 +1,58 @@
+---
+interface Props {
+  variant?: 'default' | 'dark';
+}
+
+const { variant = 'default' } = Astro.props;
+---
+
+<header class:list={['header', { 'header--dark': variant === 'dark' }]}>
+  <div class="container">
+    <a href="/" class="header-logo">
+      <img src={variant === 'dark' ? '/images/sisspa/sisspa-text-white.svg' : '/images/sisspa/sisspa-text-black.svg'} alt="SISSPA" />
+    </a>
+    <button class="header-toggle" aria-label="Toggle menu">
+      <i class="fa fa-bars"></i>
+    </button>
+    <nav class="header-nav">
+      <a href="/">Home</a>
+      <a href="/#service">Servicios</a>
+      <a href="/#about">Nosotros</a>
+      <a href="/#contact">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<script>
+  const toggle = document.querySelector('.header-toggle');
+  const nav = document.querySelector('.header-nav');
+  toggle?.addEventListener('click', () => {
+    nav?.classList.toggle('open');
+  });
+</script>
+
+<style>
+  .header--dark {
+    background: rgba(10,10,10,0.85);
+    border-bottom-color: rgba(255,255,255,0.08);
+  }
+
+  .header--dark .header-nav a {
+    color: rgba(255,255,255,0.6);
+  }
+
+  .header--dark .header-nav a:hover {
+    color: #fff;
+  }
+
+  @media (max-width: 768px) {
+    .header--dark .header-nav {
+      background: rgba(10,10,10,0.98);
+      border-bottom-color: rgba(255,255,255,0.08);
+    }
+
+    .header--dark .header-toggle {
+      color: #fff;
+    }
+  }
+</style>
